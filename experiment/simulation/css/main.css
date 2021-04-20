@@ -153,7 +153,7 @@
         text-align: center;
         background-color: #ffff00;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .reset-btn {
@@ -164,6 +164,134 @@
         width: auto; 
         font-size: 12px;
         border-radius: 0.5vw 0.5vw;
+    }
+
+    #bench {
+        z-index: -10vw;
+        position: absolute;
+        align-self: center; 
+        object-fit: cover;
+        top: 31vw;
+        width: 78vw;
+        left: 10vw;
+    }
+    
+    #pipette {
+        z-index: 1vw;
+        position: absolute;
+        object-fit: cover;
+        top: 21vw;
+        left: 48vw; 
+        height: 13vw;
+        opacity: 0;
+    }
+    
+    #water-flask {
+        height: 0px;
+        width: 3vw;
+        opacity: 0.4;
+        border-bottom: 2.9vw solid silver;
+        border-left: 0.75vw solid transparent;
+        border-right: 0.8vw solid transparent;
+        border-radius: 0% 0% 30% 30%;
+        position: absolute;
+        left: 67.5vw;
+        top: 24.8vw;
+    }
+    
+    #water-flask-final {
+        height: 0px;
+        width: 3vw;
+        opacity: 0.0;
+        border-bottom: 2.9vw solid yellow;
+        border-left: 0.75vw solid transparent;
+        border-right: 0.8vw solid transparent;
+        border-radius: 0% 0% 30% 30%;
+        position: absolute;
+        left: 67.5vw;
+        top: 28.4vw;
+    }
+    
+    #bead {
+        opacity: 0;
+        position: absolute;
+        width: 1.18vw;
+        height: 0.4vw;
+        border-radius: 1vw;
+        object-fit: cover;
+        left: 68.4vw;
+        top: 22vw;
+        background-color: #000000;
+        transform-origin: 50% 50%;
+    }
+    
+    #conicalflask {
+        position: absolute;
+        object-fit: cover;
+        left: 67vw; 
+        top: 22vw; 
+        height: 6vw; 
+        opacity: 0.5;
+    }
+    
+    #final-drop {
+        opacity: 0;
+        position: absolute;
+        width: 0.4vw;
+        height: 0.5vw;
+        border-radius: 50% 50% 50% 50%;
+        object-fit: cover;
+        left: 68.8vw;
+        top: 24.6vw;
+        background-color: silver;
+        transform-origin: 50% 50%;
+    }
+    
+    #flask {
+        z-index: 1vw; 
+        position: absolute;
+        object-fit: cover;
+        opacity: 0.4;
+        height: 6vw; 
+        top: 36.6vw; 
+        left: 36vw ;
+        opacity: 0.0;
+    }
+    
+    #water-main-beaker {
+        z-index: 1vw;
+        background-color: silver; 
+        opacity: 0.0; 
+        position: absolute; 
+        height: 4vw; 
+        width: 4vw; 
+        top:38.2vw; 
+        left: 37.2vw; 
+        border-radius: 0 0 1vw 1vw;
+    }
+    
+    #knob-heat {
+        z-index: 2vw;
+        background-color: #000000;
+        opacity:1; 
+        position:absolute;
+        top: 33.2vw;
+        left: 79.4vw;
+        width: 1.8vw;
+        height: 1.8vw;
+        border-radius: 50% 50%;
+    }
+    
+    #knob-stir {
+        z-index: 2vw; 
+        background-color: #000000; 
+        opacity:1; 
+        position:absolute; 
+        top: 33.2vw; 
+        left: 64.8vw; 
+        width: 1.8vw; 
+        height: 1.8vw; 
+        border-radius: 50% 50%;
     }
 }
 
