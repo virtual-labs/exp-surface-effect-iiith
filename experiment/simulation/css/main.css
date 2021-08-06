@@ -5,9 +5,15 @@
 
 .message {
     text-align: center;
-    background-color: #ffff00;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
+}
+
+.instructionsBox{
+    margin-top: 15px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    border: 3px solid rgb(151, 210, 61) ;
 }
 
 #bench {
@@ -142,28 +148,40 @@
     position: absolute; 
     top: 52vw; 
     left: 46vw;
-    height: 2.2vw; 
-    width: auto; 
-    font-size: 1.2vw;
-    border-radius: 0.5vw 0.5vw;
+    height: 2vw;
+    width: 12vw;
+    font-size: 1vw;
+    background-color:#b1d656;
+    color: black;
+    border-radius: 1vw 1vw;
+    font-weight: 500;
 }
 
 @media only screen and (max-width: 800px){
     .message {
         text-align: center;
-        background-color: #ffff00;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    .instructionsBox{
+        margin-top: 15px;
+        padding: 0px 20px;
+        border-radius: 20px;
+        border: 3px solid rgb(151, 210, 61) ;
     }
 
     .reset-btn {
         position: absolute; 
         top: 82vw; 
         left: 36vw;
-        height: 20px; 
-        width: auto; 
-        font-size: 12px;
-        border-radius: 0.5vw 0.5vw;
+        height: 20px;
+        width: 120px;
+        font-size: 10px;
+        background-color:#b1d656;
+        color: black;
+        border-radius: 12px 12px;
+        font-weight: 500;
     }
 
     #bench {
@@ -171,7 +189,7 @@
         position: absolute;
         align-self: center; 
         object-fit: cover;
-        top: 31vw;
+        top: 41vw;
         width: 78vw;
         left: 10vw;
     }
@@ -180,7 +198,7 @@
         z-index: 1vw;
         position: absolute;
         object-fit: cover;
-        top: 21vw;
+        top: 31vw;
         left: 48vw; 
         height: 13vw;
         opacity: 0;
@@ -196,7 +214,7 @@
         border-radius: 0% 0% 30% 30%;
         position: absolute;
         left: 67.5vw;
-        top: 24.8vw;
+        top: 34.8vw;
     }
     
     #water-flask-final {
@@ -209,7 +227,7 @@
         border-radius: 0% 0% 30% 30%;
         position: absolute;
         left: 67.5vw;
-        top: 28.4vw;
+        top: 38.4vw;
     }
     
     #bead {
@@ -220,7 +238,7 @@
         border-radius: 1vw;
         object-fit: cover;
         left: 68.4vw;
-        top: 22vw;
+        top: 32vw;
         background-color: #000000;
         transform-origin: 50% 50%;
     }
@@ -229,7 +247,7 @@
         position: absolute;
         object-fit: cover;
         left: 67vw; 
-        top: 22vw; 
+        top: 32vw; 
         height: 6vw; 
         opacity: 0.5;
     }
@@ -242,7 +260,7 @@
         border-radius: 50% 50% 50% 50%;
         object-fit: cover;
         left: 68.8vw;
-        top: 24.6vw;
+        top: 34.6vw;
         background-color: silver;
         transform-origin: 50% 50%;
     }
@@ -253,7 +271,7 @@
         object-fit: cover;
         opacity: 0.4;
         height: 6vw; 
-        top: 36.6vw; 
+        top: 46.6vw; 
         left: 36vw ;
         opacity: 0.0;
     }
@@ -265,7 +283,7 @@
         position: absolute; 
         height: 4vw; 
         width: 4vw; 
-        top:38.2vw; 
+        top:48.2vw; 
         left: 37.2vw; 
         border-radius: 0 0 1vw 1vw;
     }
@@ -275,7 +293,7 @@
         background-color: #000000;
         opacity:1; 
         position:absolute;
-        top: 33.2vw;
+        top: 43.2vw;
         left: 79.4vw;
         width: 1.8vw;
         height: 1.8vw;
@@ -287,7 +305,7 @@
         background-color: #000000; 
         opacity:1; 
         position:absolute; 
-        top: 33.2vw; 
+        top: 43.2vw; 
         left: 64.8vw; 
         width: 1.8vw; 
         height: 1.8vw; 
